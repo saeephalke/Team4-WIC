@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buzzfeed Quiz</title>
     <nav>
-        <a href="quiz.html">Quiz</a>
-        <a href="songs.html">Songs</a>
+        <a href="index.html"> Main Quiz</a>
+        <a href="humanities.html">Humanities</a>
+        <a href="stem.html">STEM</a>
         <!-- Add other links here as needed -->
     </nav>
     
@@ -70,10 +71,20 @@
                 <input type="radio" name="q5" value="humanities"> Humanities
             </label>
         </div>
+        <p></p>
+        <button onclick="calculateResult()"> Submit</button>
 
     </form>
+
+    <div>
+        <p id="result"></p>
+    </div>
+
+    <script src="./quiz.js"></script>
+
 </body>
 <footer>
+    <p>Want to learn more about your results? Check out the links in the nav bar</p> 
 </footer>
 </html>
 
