@@ -1,0 +1,20 @@
+footer{
+    padding:0.5cm;
+    background-color: #16001E;
+    color: #F7B2B7;
+}
+
+nav{
+    text-align: center;
+    background-color: #16001E;
+    color: #F7B2B7;
+    padding: 0.5cm;
+}
+
+body{
+    background-color: #F7717D;
+}
+h1{
+    text-align: center;
+    color:aliceblue
+}
