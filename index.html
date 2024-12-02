@@ -15,8 +15,10 @@
 </head>
 <body>
     <h1>Are you geared towards STEM or Humanities</h1>
-    <p>A fun quiz geared towards middle and early high school students</p>
+    <p class="center"> A fun quiz geared towards middle and early high school students</p>
+    <p></p>
 
+    <div class="quiz">
     <form id="quiz-form">
         <!-- Question 1 -->
         <div class="question">
@@ -75,18 +77,22 @@
 
         <!-- Submit button -->
          <p></p>
+         <p></p>
         <button class="submit-button" type="button" onclick="calculateResult()">Submit</button>
     </form>
 
     <div>
-        <p id="result"></p>
+        <p></p>
+        <p class="center" id="result"></p>
+    </div>
     </div>
 
     <script src="./quiz.js"></script>
 
 </body>
 <footer>
-    <p>Want to learn more about your results? Check out the links in the nav bar</p> 
+    <button><a href="humanities.html">Humanities</a></button>
+    <button><a href="stem.html">STEM</a></button>
 </footer>
 </html>
 
