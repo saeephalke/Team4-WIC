@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buzzfeed Quiz</title>
     <nav>
-        <a href="index.html"> Main Quiz</a>
-        <a href="humanities.html">Humanities</a>
-        <a href="stem.html">STEM</a>
+        <button><a href="index.html"> Main Quiz</a></button>
+        <button><a href="humanities.html">Humanities</a></button>
+        <button><a href="stem.html">STEM</a></button>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <!-- Add other links here as needed -->
     </nav>
     
 </head>
 <body>
     <h1>Are you geared towards STEM or Humanities</h1>
-    <p>A fun quiz geared towards middle and early high school students</p>
+    <p class="center"> A fun quiz geared towards middle and early high school students</p>
+    <p></p>
 
+    <div class="quiz">
     <form id="quiz-form">
-        <!--Question 1-->
-        <div>
-            <p>1.</p>
+        <!-- Question 1 -->
+        <div class="question">
+            <p>1. question 1?</p>
             <label>
                 <input type="radio" name="q1" value="stem"> STEM
             </label><br>
@@ -28,20 +32,20 @@
             </label>
         </div>
 
-        <!--Question 2-->
-        <div>
-            <p>2.</p>
+        <!-- Question 2 -->
+        <div class="question">
+            <p>2. question 2?</p>
             <label>
                 <input type="radio" name="q2" value="stem"> STEM
             </label><br>
             <label>
-                <input type="radio" name="q2" value="humanities"> Humanities
+                <input type="radio" name="q2" value="humanties"> Humanities
             </label>
         </div>
 
-        <!--Question 3-->
-        <div>
-            <p>3.</p>
+        <!-- Question 3 -->
+        <div class="question">
+            <p>3. question 3?</p>
             <label>
                 <input type="radio" name="q3" value="stem"> STEM
             </label><br>
@@ -50,9 +54,9 @@
             </label>
         </div>
 
-        <!--Question 4-->
-        <div>
-            <p>4.</p>
+        <!-- Question 4 -->
+        <div class="question">
+            <p>4. question 4?</p>
             <label>
                 <input type="radio" name="q4" value="stem"> STEM
             </label><br>
@@ -61,9 +65,9 @@
             </label>
         </div>
 
-        <!--Question 5-->
-        <div>
-            <p>5.</p>
+        <!-- Question 5 -->
+        <div class="question">
+            <p>5. question 5?</p>
             <label>
                 <input type="radio" name="q5" value="stem"> STEM
             </label><br>
@@ -71,20 +75,26 @@
                 <input type="radio" name="q5" value="humanities"> Humanities
             </label>
         </div>
-        <p></p>
-        <button onclick="calculateResult()"> Submit</button>
 
+        <!-- Submit button -->
+         <p></p>
+         <p></p>
+        <button class="submit-button" type="button" onclick="calculateResult()">Submit</button>
     </form>
 
     <div>
-        <p id="result"></p>
+        <p></p>
+        <p class="center" id="result"></p>
+    </div>
     </div>
 
     <script src="./quiz.js"></script>
 
 </body>
 <footer>
-    <p>Want to learn more about your results? Check out the links in the nav bar</p> 
+    <h3>Check out some other pages below</h3>
+    <button><a href="humanities.html">Humanities</a></button>
+    <button><a href="stem.html">STEM</a></button>
 </footer>
 </html>
 

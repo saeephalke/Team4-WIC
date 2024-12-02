@@ -1,3 +1,6 @@
+// personality-quiz/quizScript.js
+
+// This function calculates the quiz result based on the user's answers
 function calculateResult(){
     const q1 = document.querySelector('input[name="q1"]:checked');
     const q2 = document.querySelector('input[name="q2"]:checked');
@@ -33,4 +36,5 @@ function calculateResult(){
     }
 
     document.getElementById('result').innerText = result;
+
 }
