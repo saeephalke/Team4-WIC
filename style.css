@@ -23,10 +23,16 @@ body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
 }
-h1,h2{
+h1{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: #16001E
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #D4357D;
 }
 
 h3{
@@ -96,4 +102,13 @@ button:hover{
 
 label{
     color:#6b666d;
+}
+
+.pink-link{
+    color:#D4357D;
+}
+
+.center-pink{
+    color:#D4357D;
+    text-align: center;
 }
