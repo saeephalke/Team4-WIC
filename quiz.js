@@ -38,3 +38,34 @@ function calculateResult(){
     document.getElementById('result').innerText = result;
 
 }
+
+function createSTEMCareer(){
+    const careers = [
+        "Engineer",
+        "Researcher",
+        "Scientist",
+        "Biologist",
+        "Geologist",
+        "Chemist",
+        "Programmer",
+        "Physicist"
+    ];
+
+    const index = Math.floor(Math.random() * careers.length);
+    document.getElementById("stem-career").innerHTML = careers[index];
+}
+
+function createHumanitiesCareer(){
+    const careers = [
+        "Teacher",
+        "Marketer",
+        "Manager",
+        "Social Worker",
+        "Agent",
+        "Writer",
+        "Editor",
+    ];
+
+    const index = Math.floor(Math.random() * careers.length);
+    document.getElementById("humanities-career").innerHTML = careers[index];
+}
